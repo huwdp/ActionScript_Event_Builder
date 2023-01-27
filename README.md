@@ -1,3 +1,4 @@
+
 # ActionScript Event Builder
 
 A pile of code used to download and convert ActionScript documentation into ActionScript files. Broken up into four main stages
@@ -24,6 +25,11 @@ A python script uses  `class_parsed.json` to build an actionscript file specifie
 input path. This generated file should approximate the class described by the documentation page
 
 It may or may not work and requires manual inspection.
+
+Example command:
+```
+python make_as.py -i flash.globalization
+```
 
 ## Verification/inspection (comparison)
 
